@@ -1,4 +1,3 @@
-# Team name : Codepy
 # Team Name: Codepy
 
 def get_ticket_price(age: int, is_student: bool) -> int:
