@@ -1,4 +1,3 @@
-# Team name : Codepy
 # Team Name: Codepy
 
 def average_passing_grades(grades: list[int]) -> float:
