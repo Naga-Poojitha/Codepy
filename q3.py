@@ -1,2 +1,16 @@
-Write Your Function For the Problem Statement Here
-Team name : Codepy
+# Team name : Codepy
+# Team Name: Codepy
+
+def average_passing_grades(grades: list[int]) -> float:
+    total = 0
+    count = 0
+
+    for grade in grades:
+        if grade >= 50:
+            total += grade
+            count += 1
+
+    if count == 0:
+        return 0.0
+
+    return total / count
